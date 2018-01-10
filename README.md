@@ -1,0 +1,3 @@
+# scalaTraining
+intellij IDEA
+
