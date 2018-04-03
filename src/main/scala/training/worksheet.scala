@@ -48,4 +48,24 @@ object worksheet extends App {
   case _ => print(0)
   }
 
+
+  println(" ")
+  def gameResults(): Seq[(String, Int)] =
+  ("Daniel", 3500) :: ("Melissa", 13000) :: ("John", 7000) :: Nil
+
+  def hallOfFame = for {
+    result <- gameResults()
+    (name, score) = result
+    if (score > 5000)
+    } yield name
+  println(hallOfFame)
+
+
+  val songTitles =
+     List("The White Hare", "Childe the Hunter", "Take no Rogues")
+  println(songTitles.map(t => t.toLowerCase))
+  println(songTitles.map(_.toLowerCase))
+
+
+
 }
