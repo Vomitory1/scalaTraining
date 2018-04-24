@@ -100,4 +100,8 @@ object worksheet extends App {
 
   println(wordFrequencies.collect(pf))
 
+
+  println(1.toString)
+  println(1.to(10))
+
 }

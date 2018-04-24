@@ -4,7 +4,7 @@
 		module="scalatraining$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180110145920"
+		publication="20180424085141"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
